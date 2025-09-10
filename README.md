@@ -1,79 +1,51 @@
-📊 HR Attrition Dashboard – Power BI
-📌 Project Overview
+# 📊 HR Attrition Dashboard – Power BI  
 
-Employee attrition (resignation or turnover) is a major challenge for HR departments. This Power BI project analyzes attrition trends using demographic, departmental, and performance-based factors.
+## 📌 Project Overview  
+This project is an **HR Analytics Dashboard** created in **Power BI** to analyze employee attrition (resignations/turnover).  
+The report highlights how different factors—such as **age, gender, education, department, job role, and performance rating**—influence attrition.  
 
-The dashboard provides interactive insights to help HR teams identify high-risk groups and make data-driven retention strategies.
+The goal is to provide **data-driven insights** that HR teams can use to improve employee retention.  
 
-🎯 Key Metrics
+---
 
-Total Employees: 1470
+## 🎯 Key Metrics  
+- **Total Employees:** 1470  
+- **Attrition Count:** 237  
+- **Attrition Rate:** 16.12%  
+- **Active Employees:** 1233  
+- **Average Age:** 37 years  
 
-Attrition Count: 237
+---
 
-Attrition Rate: 16.12%
+## 🔎 Insights from Dashboard  
+- Employees aged **25–34** show the highest attrition.  
+- **R&D department** has the highest turnover.  
+- **Managers and Research Directors** leave despite higher salaries.  
+- Employees with **Bachelor’s degrees** are more likely to leave.  
+- **Male attrition** is slightly higher than female.  
 
-Active Employees: 1233
+---
 
-Average Employee Age: 37 years
+## 📊 Dashboard Preview  
+![HR Attrition Dashboard](hr_attrition_img.png)  
 
-🔎 Key Insights
+---
 
-By Job Role: Managers and Research Directors show high attrition despite higher salaries.
+## 🛠 Tools & Technologies  
+- **Power BI Desktop** – Dashboard building  
+- **Excel Dataset** – (Not uploaded, internal HR sample dataset)  
+- **DAX (Data Analysis Expressions)** – Custom measures and KPIs  
 
-By Department: R&D has the largest workforce and highest attrition.
+---
 
-By Age Band: Young employees (25–34) experience the highest attrition.
+## 🚀 How to Explore  
+1. Download this repository.  
+2. Open **`HR_Attrition.pbix`** in **Power BI Desktop**.  
+3. Replace or connect to your own HR dataset if needed.  
 
-By Education: Employees with Bachelor’s degrees leave more often.
+---
 
-By Gender & Education: Male attrition is slightly higher than female.
+## 🙌 Acknowledgements  
+- Dataset: HR Analytics sample dataset (used for learning/demo)  
+- Dashboard created in **Power BI Desktop**  
 
-By Performance Rating: Most employees are rated "3" (Meets Expectations).
-
-📊 Dashboard Preview
-
-🛠️ Tools & Technologies
-
-Power BI Desktop – Dashboard creation
-
-Excel (HR Data.xlsx) – Dataset
-
-DAX (Data Analysis Expressions) – Measures & KPIs
-
-📂 Repository Structure
-HR-Attrition-Dashboard/
-├── data/
-│   └── HR Data.xlsx         # HR dataset
-├── report/
-│   └── HR_Attrition.pbix    # Power BI dashboard file
-├── docs/
-│   └── hr_attrition_img.png # Dashboard screenshot
-└── README.md                # Documentation
-
-🚀 How to Run the Project
-
-Clone the repository:
-
-git clone https:https://github.com/ajantaGhost/PowerBI_HR_Attrition
-
-
-Open HR_Attrition.pbix in Power BI Desktop.
-
-Place HR Data.xlsx inside the data/ folder (or update the dataset path in Power BI).
-
-Explore the interactive dashboard using slicers and filters.
-
-📌 Future Improvements
-
-Add predictive modeling to forecast attrition risk.
-
-Connect Power BI to a SQL database for live updates.
-
-Deploy to Power BI Service with scheduled refresh.
-
-🙌 Acknowledgements
-
-Dataset: HR Data.xlsx
-
-Visualization: Built with Power BI
