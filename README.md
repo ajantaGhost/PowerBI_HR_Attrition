@@ -55,7 +55,7 @@ HR-Attrition-Dashboard/
 
 Clone the repository:
 
-git clone https://github.com/your-username/hr-attrition-dashboard.git
+git clone https:https://github.com/ajantaGhost/PowerBI_HR_Attrition
 
 
 Open HR_Attrition.pbix in Power BI Desktop.
